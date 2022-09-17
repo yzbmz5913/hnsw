@@ -1,5 +1,5 @@
 # hnsw
-Hierarchical Navigable Small World, an approximate nearest neighbors Algorithm.
+Hierarchical Navigable Small World, a kind of approximate nearest neighbors algorithm.
 ```go
 func main() {
 	h := hnsw.NewHNSW(100, 8, hnsw.NewL2Space(2))
